@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: edip-pod
+  labels:
+    app: nginx
+spec:
+  containers:
+  - name: edip-nginx
+    image: nginx
+    ports:
+    - containerPort: 80
