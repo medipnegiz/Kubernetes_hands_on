@@ -12,3 +12,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [Kubernetes_installing_on_ec2_linux2](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_installing_on_ec2_linux2)
 
 ### 🔖 [Kubernetes_basic_operations](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_basic_operations)
+
+### 🔖 [Kubernetes_networking_service_discovery]()
