@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: edip-nginx
+  labels:
+    app: edip-nginx
+spec:
+  containers:
+  - name: edip-nginx
+    image: nginx:latest
+    ports:
+      - containerPort: 80
+    volumeMounts:
+      - name: edip-emptydir
+        mountPath: /deneme
+  volumes:
+    - name: edip-emptydir
+      emptyDir: {}
