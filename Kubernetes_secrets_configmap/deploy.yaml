@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edip-deploy
+  labels:
+    app: edip
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: edip
+  template:
+    metadata:
+      labels:
+        app: edip
+    spec:
+      containers:
+        - name: edip-container
+          image: clarusway/demo:hello-config-env
+          ports:
+            - containerPort: 8888
+          envFrom:
+            - configMapRef:
+                name: demo-config

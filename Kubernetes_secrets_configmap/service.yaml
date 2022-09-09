@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: edip-service
+  labels:
+    app: edip
+spec:
+  selector:
+    app: edip
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 8888
+      nodePort: 31310
