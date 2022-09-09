@@ -17,4 +17,4 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 
 ### 🔖 [Kubernetes_pods_volumes](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_pods_volumes)
 
-### 🔖 [Kubernetes_secrets_configmap]()
+### 🔖 [Kubernetes_secrets_configmap](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_secrets_configmap)
