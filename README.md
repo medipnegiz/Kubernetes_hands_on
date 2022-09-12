@@ -16,3 +16,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [Kubernetes_networking_service_discovery](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_networking_service_discovery)
 
 ### 🔖 [Kubernetes_pods_volumes](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_pods_volumes)
+
+### 🔖 [Kubernetes_secrets_configmap](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_secrets_configmap)
