@@ -19,4 +19,4 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 
 ### 🔖 [Kubernetes_secrets_configmap](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_secrets_configmap)
 
-### 🔖 [Kubernetes_microservice_deployment_and_autoscaling]()
+### 🔖 [Kubernetes_microservice_deployment_and_autoscaling](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_microservice_deployment_and_autoscaling)
