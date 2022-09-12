@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edip-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+      - name: edip-web-container
+        image: clarusway/todo
+        imagePullPolicy: Always
+        env:
+          - name: "DBHOST"      # daha önceden tanimli degisken
+            value: edip-svc     # database service adi yazilarak oraya yönlendirilir ve baglanir
+        resources:
+          limits:
+            memory: "500Mi"     # max limit burada belirlenir
+            cpu: "100m"
+          requests:
+            memory: "250Mi"     # normalde gereken cpu ve memory ihtiyaci burada belirlenir
+            cpu: "80m"
+        ports:
+        - containerPort: 3000

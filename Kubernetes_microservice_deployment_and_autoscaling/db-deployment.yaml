@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: edip-db
+spec:
+  selector:
+    matchLabels:
+      app: devops
+  template:
+    metadata:
+      labels:
+        app: devops
+    spec:
+      containers:
+      - name: edip-container
+        image: mongo:5.0
+        resources:
+          limits:
+            memory: "500Mi"
+            cpu: "100m"
+        ports:
+        - containerPort: 27017
+        volumeMounts:
+          - mountPath: /data/db     # mongo database burada klasör olusturdugu icin buraya baglanir
+            name: edip-storage
+      volumes:
+        - persistentVolumeClaim:
+            claimName: edip-pvc
+          name: edip-storage
