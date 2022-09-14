@@ -22,3 +22,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [Kubernetes_microservice_deployment_and_autoscaling](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_microservice_deployment_and_autoscaling)
 
 ### 🔖 [EKS_managing_kubernetes_cluster_with_eks](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_managing_kubernetes_cluster_with_eks)
+
+### 🔖 [EKS_Dynamic_Volume_Provisionining_and_Ingress](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_Dynamic_Volume_Provisionining_and_Ingress)
