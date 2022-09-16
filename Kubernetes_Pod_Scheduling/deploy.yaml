@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    environment: dev
+spec:
+  replicas: 15
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 80
+        resources: {}
+      # nodeName: kube-master
+      # nodeSelector:
+      #   type: devops
+      # affinity:
+      #   nodeAffinity:
+      #     requiredDuringSchedulingIgnoredDuringExecution:
+      #       nodeSelectorTerms:
+      #         - matchExpressions:
+      #             - key: type
+      #               operator: In
+      #               values:
+      #                 - devops
+      # affinity:
+      #   nodeAffinity:
+      #     preferredDuringSchedulingIgnoredDuringExecution:
+      #       - preference:
+      #           matchExpressions:
+      #             - key: type
+      #               operator: In    # yada bunlardan biri "notin, exist, notexist"
+      #               values:
+      #                 - devops
+      #         weight: 1
+      tolerations:
+        - key: clarus
+          operator: Exists
+          value: way              # yazilmasa da kabul eder
+          effect: NoSchedule
