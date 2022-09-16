@@ -24,3 +24,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [EKS_managing_kubernetes_cluster_with_eks](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_managing_kubernetes_cluster_with_eks)
 
 ### 🔖 [EKS_Dynamic_Volume_Provisionining_and_Ingress](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_Dynamic_Volume_Provisionining_and_Ingress)
+
+### 🔖 [EKS_AWS_ALB_ingress](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_AWS_ALB_ingress)
