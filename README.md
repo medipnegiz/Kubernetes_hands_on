@@ -30,3 +30,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [Kubernetes_Pod_Scheduling](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Pod_Scheduling)
 
 ### 🔖 [Kubernetes_Liveness_Readiness_and_Startup_Probes](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Liveness_Readiness_and_Startup_Probes)
+
+### 🔖 [Kubernetes_Helm_Basic_Operations](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Helm_Basic_Operations)
