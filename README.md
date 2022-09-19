@@ -28,3 +28,5 @@ Kubernetes Hands On Studies  [![Awesome](https://cdn.rawgit.com/sindresorhus/awe
 ### 🔖 [EKS_AWS_ALB_ingress](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/EKS_AWS_ALB_ingress)
 
 ### 🔖 [Kubernetes_Pod_Scheduling](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Pod_Scheduling)
+
+### 🔖 [Kubernetes_Liveness_Readiness_and_Startup_Probes](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Liveness_Readiness_and_Startup_Probes)
