@@ -45,4 +45,4 @@ The purpose of this hands-on training is to give the knowledge of how to configu
 ### 🔖 [Kubernetes_Helm_Basic_Operations](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Helm_Basic_Operations)
 The purpose of this hands-on training is to give the knowledge of basic operations of Helm.
 
-### 🔖 [Kubernetes_Pods_Args_and_Command]()
+### 🔖 [Kubernetes_Pods_Args_and_Command](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Pods_Args_and_Command)
