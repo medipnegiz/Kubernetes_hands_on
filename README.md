@@ -49,3 +49,4 @@ The purpose of this hands-on training is to give the knowledge of basic operatio
 Purpose of this hands-on training is to give the knowledge of args & command fields of a pod.
 
 ### 🔖 [Kubernetes_Resource_Requirements_and_Limits](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Resource_Requirements_and_Limits)
+Purpose of this hands-on training is to give the knowledge of managing resources for containers.
