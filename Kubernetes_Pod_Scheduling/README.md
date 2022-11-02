@@ -577,6 +577,3 @@ kubectl delete -f clarus-deploy.yaml
 ```bash
 kubectl taint nodes kube-worker-1 clarus=way:NoSchedule-
 ```
-
-
-
