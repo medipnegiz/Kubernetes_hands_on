@@ -48,4 +48,4 @@ The purpose of this hands-on training is to give the knowledge of basic operatio
 ### 🔖 [Kubernetes_Pods_Args_and_Command](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Pods_Args_and_Command)
 Purpose of this hands-on training is to give the knowledge of args & command fields of a pod.
 
-### 🔖 [Kubernetes_Resource_Requirements_and_Limits]()
+### 🔖 [Kubernetes_Resource_Requirements_and_Limits](https://github.com/medipnegiz/Kubernetes_hands_on/tree/main/Kubernetes_Resource_Requirements_and_Limits)
